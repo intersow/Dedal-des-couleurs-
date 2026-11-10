@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dédal des Couleurs, galerie d’art à Paris. Découvrez une sélection de peintures et de sculptures.">
+  <title>Dédal des Couleurs — Galerie d’art à Paris</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Dédal des Couleurs, accueil">
+    <img src="assets/logo-dedal.png" alt="Logo Dédal des Couleurs">
+    <span><strong>Dédal des Couleurs</strong><small>GALERIE D’ART · PARIS</small></span>
+  </a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+  <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+    <a class="active" href="index.html">Accueil</a>
+    <a href="galerie.html">La galerie</a>
+    <a href="oeuvres.html">Les œuvres</a>
+    <a href="visite.html">Exposition &amp; visite</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero container">
+    <div class="hero-copy">
+      <p class="eyebrow">GALERIE EXPRESSIONNISTE · PARIS</p>
+      <h1>L’art se découvre,<br>se ressent et se partage.</h1>
+      <p class="lead">Entrez dans un lieu où chaque œuvre raconte une histoire et où les regards se croisent autour de l’art.</p>
+      <div class="actions"><a class="button" href="oeuvres.html">Découvrir les œuvres <span aria-hidden="true">↗</span></a><a class="text-link" href="visite.html">Préparer ma visite</a></div>
+    </div>
+    <figure class="hero-image"><img src="assets/galerie.png" alt="Vue d’une galerie d’art et de ses œuvres exposées"><figcaption>Un regard sur l’expressionnisme · Paris</figcaption></figure>
+  </section>
+
+  <section class="intro-band">
+    <div class="container intro-grid">
+      <p class="eyebrow">LA GALERIE · DEPUIS 1994</p>
+      <h2>Une passion,<br>trente ans d’histoire.</h2>
+      <div><p>Fondée par Paul Dechewsky, Dédal des Couleurs célèbre la force de la peinture expressionniste et les artistes qui la font vivre.</p><a class="text-link" href="galerie.html">En savoir plus sur la galerie ↗</a></div>
+    </div>
+  </section>
+
+  <section class="container section">
+    <div class="section-heading"><div><p class="eyebrow">À DÉCOUVRIR</p><h2>Œuvres choisies</h2></div><a class="text-link" href="oeuvres.html">Toute la collection ↗</a></div>
+    <div class="art-grid">
+      <article class="art-card"><a href="oeuvres.html"><img src="assets/portrait-expressionniste.png" alt="Portrait peint aux couleurs vives"><h3>Résonance I</h3></a><p>Atelier DDC · Peinture · 2024</p></article>
+      <article class="art-card"><a href="oeuvres.html"><img src="assets/texture-peinture.png" alt="Détail de matière et de peinture"><h3>Territoires intérieurs</h3></a><p>Atelier DDC · Peinture · 2023</p></article>
+      <article class="art-card"><a href="oeuvres.html"><img src="assets/sculpture.png" alt="Buste sculpté en pierre"><h3>Étude de figure</h3></a><p>Collection de la galerie · Sculpture</p></article>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="container newsletter-grid">
+      <div><p class="eyebrow">LE CARNET DE LA GALERIE</p><h2>Gardons le lien.</h2><p>Recevez nos nouvelles expositions, nos coups de cœur et les histoires des artistes. Un courrier mensuel, sans superflu.</p></div>
+      <form class="newsletter-form"><label for="email-home">Votre adresse e-mail</label><input id="email-home" type="email" placeholder="nom@exemple.fr" required><label class="consent"><input type="checkbox" required> J’accepte de recevoir les actualités de la galerie.</label><button class="button" type="submit">Je m’inscris ↗</button><p class="form-message" aria-live="polite"></p></form>
+    </div>
+  </section>
+  <section class="container visit-strip"><div><p class="eyebrow">AU PLAISIR DE VOUS VOIR</p><h2>La galerie vous ouvre ses portes.</h2></div><a class="button button-light" href="visite.html">Préparer votre visite ↗</a></section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="index.html">Dédal des Couleurs <small>GALERIE D’ART · PARIS</small></a><p>Une expérience digitale au service de l’art.</p><a href="visite.html">Contact &amp; informations</a><span>© 2026 Dédal des Couleurs</span></div></footer>
+</body></html>
